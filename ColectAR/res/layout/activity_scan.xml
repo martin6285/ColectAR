@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context="com.colectar.scannerqrapp.ScanActivity" >
+
+     <!-- <Button android:id="@+id/scan_button"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/scan" />  -->
+    <TextView
+	    android:id="@+id/scan_harvestDesc"
+        android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="false"
+	    android:layout_centerHorizontal="true" 
+	    android:textStyle="bold"
+        android:text="@string/scanHarvestDesc" />
+	<TextView
+	    android:id="@+id/scan_harvest"
+        android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="false"
+	    android:layout_centerHorizontal="true" 
+	    android:textStyle="bold"
+	    android:layout_below="@id/scan_harvestDesc" />
+    <TextView
+	    android:id="@+id/scan_infoQRDesc"
+        android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="false"
+	    android:layout_centerHorizontal="true" 
+	    android:textStyle="bold"
+	    android:layout_below="@id/scan_harvest"
+        android:text="@string/scanInfoQRDesc" />
+	<TextView
+	    android:id="@+id/scan_infoQR"
+        android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="false"
+	    android:layout_centerHorizontal="true" 
+	    android:textStyle="bold"
+	    android:layout_below="@id/scan_infoQRDesc" />
+	<TextView
+	    android:id="@+id/scan_message"
+        android:layout_marginTop="20dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="false"
+	    android:layout_centerHorizontal="true" 
+	    android:textStyle="bold"
+	    android:layout_below="@id/scan_infoQR" 
+        android:text="@string/scanMessageInfo" />
+	<Button android:id="@+id/scan_ok_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+	    android:layout_below="@id/scan_message" 
+        android:text="@string/okButton" />
+
+</RelativeLayout>

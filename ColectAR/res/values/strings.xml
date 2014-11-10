@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ColectAR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_main">LEER CODIGOS</string>
+    <string name="send_main">ENVIAR DATOS</string>
+    <string name="dataInfo">Información Leida:</string>
+    <string name="hello">Lista de datos</string>
+    <string name="okButton">Aceptar</string>
+    <string name="scanMessageInfo">Confirme la informaci\u00F3n le\u00EDa presionando ACEPTAR</string>
+    <string name="scanHarvestDesc">C\u00F3digo de Cosechador le\u00EDdo:</string>
+    <string name="scanInfoQRDesc">Informaci\u00F3n le\u00EDdo del c\u00F3digo QR:</string>
+
+</resources>
